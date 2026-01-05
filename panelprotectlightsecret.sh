@@ -34,7 +34,7 @@ display_header() {
     echo "║                            ' |  | '                            ║"
     echo "║                              \__/                              ║"
     echo "║                                                              ║"
-    echo "║    🦅  PTERODACTYL PANEL - Powered by ZERO PROTECT  🛡️      ║"
+    echo "║    🦅  PTERODACTYL PANEL - Powered by NOAH PROTECT  🛡️      ║"
     echo "║                    Version $VERSION                          ║"
     echo "╚══════════════════════════════════════════════════════════════╝"
     echo -e "${RESET}"
@@ -225,7 +225,7 @@ admin_protection_setup() {
     fi
     
     # Download and execute the protection script
-    bash <(curl -s https://raw.githubusercontent.com/KiwamiXq1031/installer-premium/main/protectadmin.sh)
+    bash <(curl -s https://raw.githubusercontent.com/Noahdev1677/installer/main/protectadmin.sh)
     
     if [ $? -eq 0 ]; then
         echo -e "${GREEN}✅ Admin Protection Setup selesai.${RESET}"
