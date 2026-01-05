@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # ==================================================
-# PROTECT BY ZERO - PANEL PROTECTION SCRIPT
-# Created by: ZeroHosting
+# PROTECT BY NOAH - PANEL PROTECTION SCRIPT
+# Created by: NOAHCAPE
 # Version: 1.0
 # ==================================================
 
@@ -16,8 +16,8 @@ NC='\033[0m' # No Color
 # Banner
 echo -e "${BLUE}"
 echo "=================================================="
-echo "           PROTECT BY ZERO INSTALLER"
-echo "           Created by ZeroHosting"
+echo "           PROTECT BY NOAH INSTALLER"
+echo "           Created by NOAHCAPE"
 echo "=================================================="
 echo -e "${NC}"
 
